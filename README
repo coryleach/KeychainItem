@@ -1,0 +1,17 @@
+//
+//  KeychainItem.h
+//  NekoLogic
+//
+//  Created by Cory Leach on 9/2/10.
+//  Copyright 2010 Cory R. Leach. All rights reserved.
+//
+//	The body of this class largely a copy-paste of code from the
+//  Apple developer resources. (KeychainWrappper from Keychain Services Tasks for iOS)
+//
+//	The basic idea is to store a 'secret' string (aka password) for a given 'service' and 'username'
+//	The 'Service' and 'Username' behave as if a dictionary key for the secret.
+//
+//  ** MAY NOT BE COMPATIBLE WITH VERSIONS OF iOS Simulator OLDER THAN 4.0 **
+//
+//	Requires: Security.framework
+//
